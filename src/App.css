@@ -1,0 +1,22 @@
+#main {
+  background-image: url("./assets/images/background/desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+ 
+#promo{
+  background-image: url("./assets/images/graphs/suelaPromo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border-radius: 10%;
+  /* padding: ; */
+}
+
+@media screen and (max-width: 1100px) {
+  #main {
+    background-image: url("./assets/images/background/mobile.svg");
+  }
+}
