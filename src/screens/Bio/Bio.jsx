@@ -67,7 +67,7 @@ export default function Bio() {
             </div>
           </section>
         </div>
-        <img src={bio} alt="suela-producciones" className="absolute right-0 bottom-24 object-contain h-2/3" />
+        <img src={bio} alt="suela-producciones" className="absolute right-0 lg:right-1/3 bottom-24 object-contain h-2/3" />
       </div>
     </div>
   );

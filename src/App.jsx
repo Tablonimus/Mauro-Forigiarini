@@ -1,6 +1,5 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import igLogo from "./assets/images/logos/ig.jpeg";
 import "./App.css";
 import Main from "./screens/Main/Main";
 import Video from "./screens/Video/Video";
@@ -21,6 +20,20 @@ function App() {
       <section className="">
         <Video />
       </section>
+        <div className="sticky top-0 z-50 w-fit px-2 py-1 rounded-r-lg bg-white text-black font-bold">
+          <a
+            href="https://www.instagram.com/mauroforgia1/"
+            target="_blank"
+            className="flex items-center gap-2"
+          >
+            <img
+              src={igLogo}
+              alt="instagram"
+              className="w-8 h-8 object-cover"
+            />
+            <span>@mauroforgia1</span>
+          </a>
+        </div>
       <section className="h-screen">
         <Bio />
       </section>
